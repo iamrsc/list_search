@@ -7,8 +7,8 @@ class ImageRelated {
   ImageRelated({required this.comman});
   getCacheImage({required String uri}) {
     return CachedNetworkImage(
-      fit: BoxFit.cover,
-      imageUrl: "http://via.placeholder.com/350x150",
+      fit: BoxFit.fill,
+      imageUrl: uri,
       progressIndicatorBuilder: (context, url, downloadProgress) => Center(
           child: comman.indecatorsRelated
               .getBasicIndecator(progress: downloadProgress.progress)),

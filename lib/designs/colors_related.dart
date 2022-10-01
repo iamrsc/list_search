@@ -13,7 +13,19 @@ class ColorsRelated {
     return Colors.white;
   }
 
+  getShadowColor() {
+    return Colors.black87;
+  }
+
   getErrorColor() {
     return Colors.red;
+  }
+
+  getUltraLightFontColor() {
+    return Colors.grey[400];
+  }
+
+  getLightFontColor() {
+    return Colors.grey[600];
   }
 }

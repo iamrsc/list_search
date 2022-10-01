@@ -20,7 +20,24 @@ class StylesRelated {
         fontWeight: FontWeight.bold);
   }
 
+  getLightFontSubHeaderStyle() {
+    return TextStyle(
+        color: comman.colorsRelated.getBackgroundColor(),
+        fontSize: 18,
+        fontWeight: FontWeight.bold);
+  }
+
   getFontNormal() {
     return TextStyle(color: comman.colorsRelated.getFontColor(), fontSize: 16);
+  }
+
+  getFontLightNormal() {
+    return TextStyle(
+        color: comman.colorsRelated.getLightFontColor(), fontSize: 16);
+  }
+
+  getFontNormalBackcolor() {
+    return TextStyle(
+        color: comman.colorsRelated.getBackgroundColor(), fontSize: 16);
   }
 }

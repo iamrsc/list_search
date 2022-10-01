@@ -16,6 +16,11 @@ class TextRelated {
     return Text(title, style: comman.stylesRelated.getFontColorSubHeader());
   }
 
+  getLightFontSubHeaderStyle({required String title}) {
+    return Text(title,
+        style: comman.stylesRelated.getLightFontSubHeaderStyle());
+  }
+
   getFontNormal({required String title}) {
     return Text(title, style: comman.stylesRelated.getFontNormal());
   }
