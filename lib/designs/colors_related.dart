@@ -5,7 +5,15 @@ class ColorsRelated {
     return Colors.indigo;
   }
 
+  getFontColor() {
+    return Colors.grey[800];
+  }
+
   getBackgroundColor() {
     return Colors.white;
+  }
+
+  getErrorColor() {
+    return Colors.red;
   }
 }

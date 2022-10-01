@@ -12,4 +12,15 @@ class StylesRelated {
   getThemeColorHeader() {
     return TextStyle(color: comman.colorsRelated.getThemeColor(), fontSize: 20);
   }
+
+  getFontColorSubHeader() {
+    return TextStyle(
+        color: comman.colorsRelated.getFontColor(),
+        fontSize: 18,
+        fontWeight: FontWeight.bold);
+  }
+
+  getFontNormal() {
+    return TextStyle(color: comman.colorsRelated.getFontColor(), fontSize: 16);
+  }
 }

@@ -8,7 +8,15 @@ class TextRelated {
     return Text(title, style: comman.stylesRelated.getBackgroundColorHeader());
   }
 
-  getThemeColorHedaer({required String title}) {
+  getThemeColorHeader({required String title}) {
     return Text(title, style: comman.stylesRelated.getThemeColorHeader());
+  }
+
+  getFontSubHeader({required String title}) {
+    return Text(title, style: comman.stylesRelated.getFontColorSubHeader());
+  }
+
+  getFontNormal({required String title}) {
+    return Text(title, style: comman.stylesRelated.getFontNormal());
   }
 }
